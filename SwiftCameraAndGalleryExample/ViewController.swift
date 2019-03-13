@@ -9,9 +9,10 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
+class ViewController: UIViewController
 {
     @IBOutlet weak var imgPhoto: UIImageView!
+    var newMedia: Bool?
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -40,6 +41,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
     }
     
+    
+}
+
+extension ViewController:  UIImagePickerControllerDelegate, UINavigationControllerDelegate
+{
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         self.dismiss(animated: true, completion: nil)
     }
