@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SwiftCameraAndGalleryExample
 //
-//  Created by MacStudent on 2019-03-13.
-//  Copyright © 2019 MacStudent. All rights reserved.
+//  Created by Pritesh Patel on 2019-03-13.
+//  Copyright © 2019 Pritesh Patel. All rights reserved.
 //
 
 import UIKit
